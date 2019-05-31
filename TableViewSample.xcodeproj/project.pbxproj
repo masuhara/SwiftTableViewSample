@@ -12,6 +12,14 @@
 		7A0D032B22A1530300F1D797 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A0D032922A1530300F1D797 /* Main.storyboard */; };
 		7A0D032D22A1530300F1D797 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A0D032C22A1530300F1D797 /* Assets.xcassets */; };
 		7A0D033022A1530300F1D797 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A0D032E22A1530300F1D797 /* LaunchScreen.storyboard */; };
+		7A0D033922A1539E00F1D797 /* PokemonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0D033722A1539E00F1D797 /* PokemonTableViewCell.swift */; };
+		7A0D033A22A1539E00F1D797 /* PokemonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A0D033822A1539E00F1D797 /* PokemonTableViewCell.xib */; };
+		7A0D033C22A153D300F1D797 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0D033B22A153D300F1D797 /* Pokemon.swift */; };
+		7A0D034222A15BC600F1D797 /* fushigidane.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A0D033E22A15BC600F1D797 /* fushigidane.png */; };
+		7A0D034322A15BC600F1D797 /* pikachu.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A0D033F22A15BC600F1D797 /* pikachu.png */; };
+		7A0D034422A15BC600F1D797 /* hitokage.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A0D034022A15BC600F1D797 /* hitokage.png */; };
+		7A0D034522A15BC600F1D797 /* zenigame.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A0D034122A15BC600F1D797 /* zenigame.png */; };
+		7A0D034722A15CF400F1D797 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0D034622A15CF400F1D797 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		7A0D032C22A1530300F1D797 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A0D032F22A1530300F1D797 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A0D033122A1530300F1D797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A0D033722A1539E00F1D797 /* PokemonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonTableViewCell.swift; sourceTree = "<group>"; };
+		7A0D033822A1539E00F1D797 /* PokemonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PokemonTableViewCell.xib; sourceTree = "<group>"; };
+		7A0D033B22A153D300F1D797 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		7A0D033E22A15BC600F1D797 /* fushigidane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fushigidane.png; sourceTree = "<group>"; };
+		7A0D033F22A15BC600F1D797 /* pikachu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pikachu.png; sourceTree = "<group>"; };
+		7A0D034022A15BC600F1D797 /* hitokage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hitokage.png; sourceTree = "<group>"; };
+		7A0D034122A15BC600F1D797 /* zenigame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zenigame.png; sourceTree = "<group>"; };
+		7A0D034622A15CF400F1D797 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +70,30 @@
 		7A0D032422A1530300F1D797 /* TableViewSample */ = {
 			isa = PBXGroup;
 			children = (
+				7A0D033D22A15BB400F1D797 /* Images */,
+				7A0D033B22A153D300F1D797 /* Pokemon.swift */,
 				7A0D032522A1530300F1D797 /* AppDelegate.swift */,
 				7A0D032722A1530300F1D797 /* ViewController.swift */,
+				7A0D034622A15CF400F1D797 /* DetailViewController.swift */,
+				7A0D033722A1539E00F1D797 /* PokemonTableViewCell.swift */,
+				7A0D033822A1539E00F1D797 /* PokemonTableViewCell.xib */,
 				7A0D032922A1530300F1D797 /* Main.storyboard */,
 				7A0D032C22A1530300F1D797 /* Assets.xcassets */,
 				7A0D032E22A1530300F1D797 /* LaunchScreen.storyboard */,
 				7A0D033122A1530300F1D797 /* Info.plist */,
 			);
 			path = TableViewSample;
+			sourceTree = "<group>";
+		};
+		7A0D033D22A15BB400F1D797 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7A0D033E22A15BC600F1D797 /* fushigidane.png */,
+				7A0D034022A15BC600F1D797 /* hitokage.png */,
+				7A0D033F22A15BC600F1D797 /* pikachu.png */,
+				7A0D034122A15BC600F1D797 /* zenigame.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +155,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A0D033022A1530300F1D797 /* LaunchScreen.storyboard in Resources */,
+				7A0D034222A15BC600F1D797 /* fushigidane.png in Resources */,
+				7A0D033A22A1539E00F1D797 /* PokemonTableViewCell.xib in Resources */,
 				7A0D032D22A1530300F1D797 /* Assets.xcassets in Resources */,
 				7A0D032B22A1530300F1D797 /* Main.storyboard in Resources */,
+				7A0D034422A15BC600F1D797 /* hitokage.png in Resources */,
+				7A0D034322A15BC600F1D797 /* pikachu.png in Resources */,
+				7A0D034522A15BC600F1D797 /* zenigame.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +172,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A0D033922A1539E00F1D797 /* PokemonTableViewCell.swift in Sources */,
+				7A0D033C22A153D300F1D797 /* Pokemon.swift in Sources */,
+				7A0D034722A15CF400F1D797 /* DetailViewController.swift in Sources */,
 				7A0D032822A1530300F1D797 /* ViewController.swift in Sources */,
 				7A0D032622A1530300F1D797 /* AppDelegate.swift in Sources */,
 			);
